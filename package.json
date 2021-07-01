@@ -11,7 +11,13 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
+    "firebase": "^8.6.8",
+    "lodash": "^4.17.21",
     "nuxt": "^2.15.7",
+    "uuid": "^8.3.2",
+    "vue-lodash": "^2.1.2",
+    "vue-moment": "^4.1.0",
+    "vuefire": "^2.2.5",
     "vuetify": "^2.5.5"
   },
   "devDependencies": {
