@@ -1,0 +1,102 @@
+body,
+.v-application,
+.default-font {
+	font-family: "Raleway", sans-serif !important;
+}
+.pointer {
+	cursor: pointer;
+}
+.v-btn {
+	text-transform: none !important;
+}
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.text-decoration-none {
+	text-decoration: none !important;
+}
+.hover-underline:hover {
+	text-decoration: underline;
+}
+.hover-none:hover {
+	text-decoration: none;
+}
+.custom-small {
+	.v-input__slot {
+		min-height: 45px !important;
+	}
+	.v-input__append-inner {
+		margin-top: 10px !important;
+	}
+	.v-select__selections {
+		padding: 0 !important;
+	}
+}
+.text-small {
+	font-size: small;
+}
+.text-smaller {
+	font-size: smaller;
+}
+.text-x-small {
+	font-size: x-small;
+}
+.full-height {
+	height: 100%;
+}
+.custom-text-wrap {
+	word-wrap: break-word !important;
+	display: block;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+.pull-right {
+	float: right !important;
+}
+.pull-left {
+	float: left !important;
+}
+.clearfix {
+	clear: both;
+	display: block;
+}
+.v-text-field--filled > .v-input__control > .v-input__slot,
+.v-text-field--full-width > .v-input__control > .v-input__slot,
+.v-text-field--outlined > .v-input__control > .v-input__slot {
+	min-height: 50px !important;
+}
+.v-select.v-select--chips:not(.v-text-field--single-line).v-text-field--box.v-select--chips--small
+	.v-select__selections,
+.v-select.v-select--chips:not(.v-text-field--single-line).v-text-field--enclosed.v-select--chips--small
+	.v-select__selections {
+	min-height: 50px !important;
+}
+.v-text-field.v-text-field--enclosed .v-input__prepend-outer,
+.v-text-field.v-text-field--enclosed .v-input__prepend-inner,
+.v-text-field.v-text-field--enclosed .v-input__append-inner,
+.v-text-field.v-text-field--enclosed .v-input__append-outer {
+	margin-top: 12px !important;
+}
+#page-wrapper > div > div > .container:nth-child(1) {
+	padding-top: 2px !important;
+}
+.mt-1px {
+	margin-top: 1px !important;
+}
+[full-height] {
+	height: 100% !important;
+}
+.w-auto {
+	width: auto !important;
+}
+.custom-data-table {
+	.v-data-table-header {
+		th {
+			height: 30px;
+			background: #f5f5f5;
+		}
+	}
+}
